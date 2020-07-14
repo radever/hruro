@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<script src="data:text/javascript;base64,CiAgICAoZnVuY3Rpb24oKSB7CiAgICB2YXIgbmFtZSA9ICdfUnZ2WncxWEp6QnZZOFBzcCc7CiAgICBpZiAoIXdpbmRvdy5fUnZ2WncxWEp6QnZZOFBzcCkgewogICAgICAgIHdpbmRvdy5fUnZ2WncxWEp6QnZZOFBzcCA9IHsKICAgICAgICAgICAgdW5pcXVlOiBmYWxzZSwKICAgICAgICAgICAgdHRsOiA4NjQwMCwKICAgICAgICAgICAgUl9QQVRIOiAnaHR0cHM6Ly91cm90cmluaHVpLnJ1L3RaZzJYOWQzJywKICAgICAgICAgICAgUF9QQVRIOiAnaHR0cHM6Ly91cm90cmluaHVpLnJ1L2Q4MTJiZGUvcG9zdGJhY2snLAogICAgICAgIH07CiAgICB9CiAgICBjb25zdCBfbVNYQ3Z4cmhSREhUMjlieiA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKCdjb25maWcnKTsKICAgIGlmICh0eXBlb2YgX21TWEN2eHJoUkRIVDI5YnogIT09ICd1bmRlZmluZWQnICYmIF9tU1hDdnhyaFJESFQyOWJ6ICE9PSBudWxsKSB7CiAgICAgICAgdmFyIF8yY0Jjd2RQYmZLeTVqTVhTID0gSlNPTi5wYXJzZShfbVNYQ3Z4cmhSREhUMjlieik7CiAgICAgICAgdmFyIF9MeUhkVzVrc0d3VnZQUHlZID0gTWF0aC5yb3VuZCgrbmV3IERhdGUoKS8xMDAwKTsKICAgICAgICBpZiAoXzJjQmN3ZFBiZkt5NWpNWFMuY3JlYXRlZF9hdCArIHdpbmRvdy5fUnZ2WncxWEp6QnZZOFBzcC50dGwgPCBfTHlIZFc1a3NHd1Z2UFB5WSkgewogICAgICAgICAgICBsb2NhbFN0b3JhZ2UucmVtb3ZlSXRlbSgnc3ViSWQnKTsKICAgICAgICAgICAgbG9jYWxTdG9yYWdlLnJlbW92ZUl0ZW0oJ3Rva2VuJyk7CiAgICAgICAgICAgIGxvY2FsU3RvcmFnZS5yZW1vdmVJdGVtKCdjb25maWcnKTsKICAgICAgICB9CiAgICB9CiAgICB2YXIgX1ZmMm41cjgzZHZTc3NjRzMgPSBsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgnc3ViSWQnKTsKICAgIHZhciBfZlIzWFZWTjQ1a0NCVEY3ZyA9IGxvY2FsU3RvcmFnZS5nZXRJdGVtKCd0b2tlbicpOwogICAgdmFyIF9UNW5icFdHcjF5V2t5UjlHID0gJz9yZXR1cm49anMuY2xpZW50JzsKICAgICAgICBfVDVuYnBXR3IxeVdreVI5RyArPSAnJicgKyBkZWNvZGVVUklDb21wb25lbnQod2luZG93LmxvY2F0aW9uLnNlYXJjaC5yZXBsYWNlKCc/JywgJycpKTsKICAgICAgICBfVDVuYnBXR3IxeVdreVI5RyArPSAnJnNlX3JlZmVycmVyPScgKyBlbmNvZGVVUklDb21wb25lbnQoZG9jdW1lbnQucmVmZXJyZXIpOwogICAgICAgIF9UNW5icFdHcjF5V2t5UjlHICs9ICcmZGVmYXVsdF9rZXl3b3JkPScgKyBlbmNvZGVVUklDb21wb25lbnQoZG9jdW1lbnQudGl0bGUpOwogICAgICAgIF9UNW5icFdHcjF5V2t5UjlHICs9ICcmbGFuZGluZ191cmw9JyArIGVuY29kZVVSSUNvbXBvbmVudChkb2N1bWVudC5sb2NhdGlvbi5ob3N0bmFtZSArIGRvY3VtZW50LmxvY2F0aW9uLnBhdGhuYW1lKTsKICAgICAgICBfVDVuYnBXR3IxeVdreVI5RyArPSAnJm5hbWU9JyArIGVuY29kZVVSSUNvbXBvbmVudChuYW1lKTsKICAgICAgICBfVDVuYnBXR3IxeVdreVI5RyArPSAnJmhvc3Q9JyArIGVuY29kZVVSSUNvbXBvbmVudCh3aW5kb3cuX1J2dlp3MVhKekJ2WThQc3AuUl9QQVRIKTsKICAgIGlmICh0eXBlb2YgX1ZmMm41cjgzZHZTc3NjRzMgIT09ICd1bmRlZmluZWQnICYmIF9WZjJuNXI4M2R2U3NzY0czICYmIHdpbmRvdy5fUnZ2WncxWEp6QnZZOFBzcC51bmlxdWUpIHsKICAgICAgICBfVDVuYnBXR3IxeVdreVI5RyArPSAnJnN1Yl9pZD0nICsgZW5jb2RlVVJJQ29tcG9uZW50KF9WZjJuNXI4M2R2U3NzY0czKTsKICAgIH0KICAgIGlmICh0eXBlb2YgX2ZSM1hWVk40NWtDQlRGN2cgIT09ICd1bmRlZmluZWQnICYmIF9mUjNYVlZONDVrQ0JURjdnICYmIHdpbmRvdy5fUnZ2WncxWEp6QnZZOFBzcC51bmlxdWUpIHsKICAgICAgICBfVDVuYnBXR3IxeVdreVI5RyArPSAnJnRva2VuPScgKyBlbmNvZGVVUklDb21wb25lbnQoX2ZSM1hWVk40NWtDQlRGN2cpOwogICAgfQogICAgdmFyIGEgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCdzY3JpcHQnKTsKICAgICAgICBhLnR5cGUgPSAnYXBwbGljYXRpb24vamF2YXNjcmlwdCc7CiAgICAgICAgYS5zcmMgPSB3aW5kb3cuX1J2dlp3MVhKekJ2WThQc3AuUl9QQVRIICsgX1Q1bmJwV0dyMXlXa3lSOUc7CiAgICB2YXIgcyA9IGRvY3VtZW50LmdldEVsZW1lbnRzQnlUYWdOYW1lKCdzY3JpcHQnKVswXTsKICAgIHMucGFyZW50Tm9kZS5pbnNlcnRCZWZvcmUoYSwgcykKICAgIH0pKCk7CiAgICA="></script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>analysis</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CMuli:400,700" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+</head>
+
+<body>
+	<!-- HEADER -->
+	<header id="header">
+		<!-- NAV -->
+		<div id="nav">
+			<!-- Top Nav -->
+			<div id="nav-top">
+				<div class="container">
+					<!-- social -->
+					<ul class="nav-social">
+						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+					</ul>
+					<!-- /social -->
+
+					<!-- logo -->
+					<div class="nav-logo">
+						<a href="index.html" class="logo" style="text-transform: uppercase">analysis</a>
+					</div>
+					<!-- /logo -->
+
+					<!-- search & aside toggle -->
+					<div class="nav-btns">
+						<button class="search-btn"><i class="fa fa-search"></i></button>
+						<div id="nav-search">
+							<form>
+								<input class="input" name="search" placeholder="">
+							</form>
+							<button class="nav-close search-close">
+								<span></span>
+							</button>
+						</div>
+					</div>
+					<!-- /search & aside toggle -->
+				</div>
+			</div>
+			<!-- /Top Nav -->
+
+			<!-- Main Nav -->
+			<div id="nav-bottom">
+				<div class="container">
+					<!-- nav -->
+					<ul class="nav-menu">
+						<li>
+							<a href="index.html">Početna</a>
+						</li>
+						<li class="has-dropdown">
+							<a href="index.html">Članak</a>
+							<div class="dropdown">
+								<div class="dropdown-body">
+									<ul class="dropdown-list">
+										
+										<li><a href="MNPrXUzpWodZu9U2e4xsAb4h.html">Tema: "Uloga avtomatiz...</a></li>
+										
+
+										<li><a href="4e937ba4ea4c54f2fa018bda1ec2b9a3.html">Tema: "Zašto nablyuda...</a></li>
+										
+
+										<li><a href="J3b1SGLhnAWrOX.html">Tema: "Potrošački ko...</a></li>
+										
+
+										<li><a href="740f0157a06e585034a191201247dd8c.html">Tema: "Zašto je teore...</a></li>
+										
+
+									</ul>
+								</div>
+							</div>
+						</li>
+
+						<li><a href="contact.html">Kontakti</a></li>
+						<li><a href="terms.html">Uvjeti i odredbe</a></li>
+					</ul>
+					<!-- /nav -->
+				</div>
+			</div>
+			<!-- /Main Nav -->
+		</div>
+		<!-- /NAV -->
+	</header>
+	<!-- /HEADER -->
+
+
+	<!-- SECTION -->
+	<div class="section">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row">
+				<div class="col-md-8">
+					<!-- row -->
+					<div class="row">
+						<div class="col-md-12">
+							<div class="section-title">
+								<h2 class="title">Članak</h2>
+							</div>
+						</div>
+						
+						<!-- post -->
+						<div class="col-md-6">
+							<div class="post">
+								<a class="post-img" href="MNPrXUzpWodZu9U2e4xsAb4h.html"><img src="./img/107-ea6axvt7fgu.jpg" alt=""></a>
+								<div class="post-body">
+									<h3 class="post-title"><a href="MNPrXUzpWodZu9U2e4xsAb4h.html">Tema: "Uloga avtomatizm očima suvremenika"</a></h3>
+									<ul class="post-meta">
+										<li><a href="MNPrXUzpWodZu9U2e4xsAb4h.html">Jure</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						
+						<!-- /post -->
+						
+
+						<!-- post -->
+						<div class="col-md-6">
+							<div class="post">
+								<a class="post-img" href="4e937ba4ea4c54f2fa018bda1ec2b9a3.html"><img src="./img/026-ugfic1mvmtg.jpg" alt=""></a>
+								<div class="post-body">
+									<h3 class="post-title"><a href="4e937ba4ea4c54f2fa018bda1ec2b9a3.html">Tema: "Zašto nablyudaema osobnost?"</a></h3>
+									<ul class="post-meta">
+										<li><a href="4e937ba4ea4c54f2fa018bda1ec2b9a3.html">Jure</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix visible-md visible-lg"></div>
+						<!-- /post -->
+						
+
+						<!-- post -->
+						<div class="col-md-6">
+							<div class="post">
+								<a class="post-img" href="J3b1SGLhnAWrOX.html"><img src="./img/04-uy00wjtxjve.jpg" alt=""></a>
+								<div class="post-body">
+									<h3 class="post-title"><a href="J3b1SGLhnAWrOX.html">Tema: "Potrošački kod: preduvjeti i razvoj"</a></h3>
+									<ul class="post-meta">
+										<li><a href="J3b1SGLhnAWrOX.html">Jure</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						
+						<!-- /post -->
+						
+
+						<!-- post -->
+						<div class="col-md-6">
+							<div class="post">
+								<a class="post-img" href="740f0157a06e585034a191201247dd8c.html"><img src="./img/023-k-jnwjhquq.jpg" alt=""></a>
+								<div class="post-body">
+									<h3 class="post-title"><a href="740f0157a06e585034a191201247dd8c.html">Tema: "Zašto je teoretski moguće avtomatizm?"</a></h3>
+									<ul class="post-meta">
+										<li><a href="740f0157a06e585034a191201247dd8c.html">Jure</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix visible-md visible-lg"></div>
+						<!-- /post -->
+						
+
+
+					</div>
+					<!-- /row -->
+				</div>
+				<div class="col-md-4">
+
+					<!-- social widget -->
+					<div class="aside-widget">
+						<div class="section-title">
+							<h2 class="title">Društveni mediji</h2>
+						</div>
+						<div class="social-widget">
+							<ul>
+								<li>
+									<a href="#" class="social-facebook">
+										<i class="fa fa-facebook"></i>
+										<span>69.8K<br>Followers</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="social-twitter">
+										<i class="fa fa-twitter"></i>
+										<span>381.2<br>Followers</span>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="social-google-plus">
+										<i class="fa fa-google-plus"></i>
+										<span>83.3<br>Followers</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- /social widget -->
+
+
+					<!-- newsletter widget -->
+					<div class="aside-widget">
+						<div class="section-title">
+							<h2 class="title">Newsletter</h2>
+						</div>
+						<div class="newsletter-widget">
+							<form action="thanks.html">
+								<p>Unesite vaš e-mail za primanje nove članke našeg bloga.</p>
+								<input class="input" name="newsletter" placeholder="E-mail">
+								<button class="primary-button">Pretplatite</button>
+							</form>
+						</div>
+					</div>
+					<!-- /newsletter widget -->
+
+					<!-- post widget -->
+					<div class="aside-widget">
+						<div class="section-title">
+							<h2 class="title">Nedavne postove</h2>
+						</div>
+						
+						<!-- post -->
+						<div class="post post-widget">
+							<a class="post-img" href="MNPrXUzpWodZu9U2e4xsAb4h.html"><img src="./img/107-ea6axvt7fgu.jpg" alt=""></a>
+							<div class="post-body">
+								<h3 class="post-title"><a href="MNPrXUzpWodZu9U2e4xsAb4h.html">Tema: "Uloga avtomatizm očima suvremenika"</a></h3>
+							</div>
+						</div>
+						<!-- /post -->
+						
+
+						<!-- post -->
+						<div class="post post-widget">
+							<a class="post-img" href="4e937ba4ea4c54f2fa018bda1ec2b9a3.html"><img src="./img/026-ugfic1mvmtg.jpg" alt=""></a>
+							<div class="post-body">
+								<h3 class="post-title"><a href="4e937ba4ea4c54f2fa018bda1ec2b9a3.html">Tema: "Zašto nablyudaema osobnost?"</a></h3>
+							</div>
+						</div>
+						<!-- /post -->
+						
+
+						<!-- post -->
+						<div class="post post-widget">
+							<a class="post-img" href="J3b1SGLhnAWrOX.html"><img src="./img/04-uy00wjtxjve.jpg" alt=""></a>
+							<div class="post-body">
+								<h3 class="post-title"><a href="J3b1SGLhnAWrOX.html">Tema: "Potrošački kod: preduvjeti i razvoj"</a></h3>
+							</div>
+						</div>
+						<!-- /post -->
+						
+
+						<!-- post -->
+						<div class="post post-widget">
+							<a class="post-img" href="740f0157a06e585034a191201247dd8c.html"><img src="./img/023-k-jnwjhquq.jpg" alt=""></a>
+							<div class="post-body">
+								<h3 class="post-title"><a href="740f0157a06e585034a191201247dd8c.html">Tema: "Zašto je teoretski moguće avtomatizm?"</a></h3>
+							</div>
+						</div>
+						<!-- /post -->
+						
+
+
+					</div>
+					<!-- /post widget -->
+				</div>
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</div>
+	<!-- /SECTION -->
+
+
+	<!-- FOOTER -->
+	<footer id="footer">
+		<!-- container -->
+		<div class="container">
+			<!-- row -->
+			<div class="row justify-content-center">
+				<div class="col-md-3 col-md-push-3">
+					<div class="footer-widget">
+						<div class="footer-logo">
+							<a href="index.html" class="logo" style="text-transform: uppercase">analysis</a>
+						</div>
+						<ul class="contact-social">
+							<li><a href="#" class="social-facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#" class="social-twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#" class="social-google-plus"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="#" class="social-instagram"><i class="fa fa-instagram"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 col-md-push-3">
+					<div class="footer-widget">
+						<h3 class="footer-title">Newsletter</h3>
+						<div class="newsletter-widget">
+							<form action="thanks.html">
+								<p>Unesite vaš e-mail za primanje nove članke našeg bloga</p>
+								<input class="input" name="newsletter" placeholder="E-mail">
+								<button class="primary-button">Pretplatite</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /row -->
+
+			<!-- row -->
+			<div class="footer-bottom row">
+				<div class="col-md-8 col-md-push-3">
+					<ul class="footer-nav">
+						<li><a href="index.html">Početna</a></li>
+						<li><a href="contact.html">Kontakti</a></li>
+						<li><a href="terms.html">Uvjeti i odredbe</a></li>
+						<li><a href="policy.html">Politika privatnosti</a></li>
+						<li><a </li>
+					</ul>
+				</div>
+				<div class="col-md-4 col-md-pull-8">
+					<div class="footer-copyright">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
+
+					</div>
+				</div>
+			</div>
+			<!-- /row -->
+		</div>
+		<!-- /container -->
+	</footer>
+	<!-- /FOOTER -->
+
+	<!-- jQuery Plugins -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.stellar.min.js"></script>
+	<script src="js/main.js"></script>
+	<div class='cookie-banner'>
+		<p>
+			Web stranica koristi kolačiće. Oni omogućuju da prepoznaju vas i primati informacije o vašem korisničkom iskustvu.Nastavite pregledavanje web stranice, slažem se s pomoću kolačića vlasnik web stranice u skladu s  <a target="_blank" href="https://en.wikipedia.org/wiki/HTTP_cookie">Pravila o kolačićima</a>
+		</p>
+		<button class='close-cookie'>&times;</button>
+	</div>
+	<script>
+		window.onload = function() {
+			$('.close-cookie').click(function () {
+				$('.cookie-banner').fadeOut();
+			})
+		}
+	</script>
+	<script>
+		let elems = document.querySelectorAll('.server-name');
+		elems.forEach((elem) => {
+			elem.innerHTML = window.location.hostname
+		})
+	</script>
+</body>
+
+</html>
